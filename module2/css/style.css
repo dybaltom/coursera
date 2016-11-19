@@ -1,36 +1,68 @@
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
-.row {
-	width: 100%
+
+#container {
+    background-color: lightslategray;
+    position: relative;
 }
+
+h1 {
+    text-align: center;
+    font-size: 7.5em;
+}
+
+#container>h1 {
+    width: 150px;
+    border: solid black 1px;
+    float: right;
+    margin: 0px;
+    font-size: 2.5em;
+}
+
+#h1 {
+    background-color: rosybrown;
+}
+
+#h2 {
+    background-color: goldenrod;
+}
+
+#h3 {
+    background-color: slateblue;
+}
+
 p {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    clear: both;
 }
-@media (min-width: 992px){
-	.col-lg-3 {
-		float: left;
-		width: 33%;
-		border: 1px solid black;
-	}
+
+@media (min-width: 992px) {
+    .col-lg-3 {
+        float: left;
+        width: 33%;
+        border: 1px solid black;
+    }
 }
-@media (min-width: 768px) and (max-width: 991px){
-	.col-md-2 {
-		width: 50%;
-		float: left;
-		border: 1px solid black;
-	}
-	.col-md-1 {
-		width: 100%;
-		float: left;
-		border: 1px solid black;
-	}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-2 {
+        width: 50%;
+        float: left;
+        border: 1px solid black;
+    }
+    .col-md-1 {
+        width: 100%;
+        float: left;
+        border: 1px solid black;
+    }
 }
+
 @media (max-width: 767px) {
-	.col-xs-1 {
-		width: 100%;
-		border: 1px solid black;
-	}
+    .col-xs-1 {
+        width: 100%;
+        border: 1px solid black;
+    }
 }
