@@ -1,0 +1,26 @@
+#nav-list {
+    text-align: center;
+    color: whitesmoke;
+}
+
+#nav-list span {
+    color: whitesmoke;
+}
+
+#main-content {
+    background-color: #e6e6e6;
+}
+
+a {
+    margin-bottom: -20px;
+}
+
+.navbar {
+    background-color: #9b1b2d;
+}
+
+.navbar-brand span {
+    color: whitesmoke;
+    margin-top: -5px;
+    font-size: 2em;
+}
